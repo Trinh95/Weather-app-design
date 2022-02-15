@@ -1,0 +1,141 @@
+body {
+  background: linear-gradient(
+    109.6deg,
+    rgb(9, 9, 121) 11.2%,
+    rgb(144, 6, 161) 53.7%,
+    rgb(0, 212, 255) 100.2%
+  );
+}
+.card {
+  color: rgb(18, 18, 169);
+  font-family: Georgia, serif;
+  padding: 30px 30px;
+  border-radius: 10px;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  box-shadow: 5px 5px 10px #d9edfd;
+  max-width: 800px;
+  margin: 40px auto;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  border: 1px solid #0769d9;
+  position: relative;
+  left: 30px;
+}
+
+#cityname {
+  border: 2px solid rgb(178, 65, 193);
+}
+
+.searchButton {
+  line-height: 0;
+  margin-left: 5%;
+  padding: 0;
+  background: rgb(208, 117, 220);
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  box-shadow: 5px 5px 10px rgb(194, 177, 196);
+}
+.searchButton:hover {
+  border: none;
+  background-color: rgb(178, 65, 193);
+  color: white;
+  transition: 100ms;
+}
+
+#locationButton {
+  border-radius: 20px;
+  border: transparent;
+  background-color: royalblue;
+  box-shadow: 5px 5px 10px rgb(188, 237, 247);
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  max-width: 150px;
+  padding: 6px 5px;
+  position: relative;
+  left: 30px;
+}
+
+#locationButton:hover {
+  opacity: 0.8;
+  transition: 100ms;
+}
+
+hr {
+  line-height: 2px;
+  border-color: #0769d9;
+}
+
+h1 {
+  font-family: "Gill Sans", sans-serif;
+  color: rgb(178, 65, 193);
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  text-align: center;
+}
+.mainweather {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+h5,
+h2 {
+  text-align: center;
+}
+h5 {
+  color: #596aca;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(178, 65, 193);
+  padding: 0;
+}
+
+.date-time {
+  font-size: 20px;
+  position: relative;
+  left: 35px;
+  font-weight: bold;
+  color: rgb(60, 60, 164);
+}
+.humid-wind {
+  font-size: 17px;
+  position: relative;
+  left: 35px;
+  top: 20px;
+  color: rgb(60, 60, 164);
+}
+.krakow {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  box-shadow: 5px 5px 50px #d9edfd;
+  border-radius: 10px;
+}
+
+#Ctemp {
+  font-size: 20px;
+  position: relative;
+  top: -6px;
+  left: -7px;
+}
+
+.ending {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-weight: 400;
+}
