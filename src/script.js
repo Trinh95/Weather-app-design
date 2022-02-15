@@ -85,21 +85,21 @@ function KrakowWeather(city) {
 }
 KrakowWeather("Krakow");
 
-function showPhoto(photo) {
-  document.getElementById("cityPhoto").src = `${photo}`;
-}
+//function showPhoto(photo) {
+// document.getElementById("cityPhoto").src = `${photo}`;
+//}
 
-function showPhotoReference(response) {
-  let photoRef = response.candidates[1].photo_reference;
-  let apiPhoto = "AIzaSyBGe9y0OtkIttH_QUMmWvA8i7NYEJeIGEw";
-  let linkPhoto = `https://maps.googleapis.com/maps/api/place/photo?photoreference=${photoRef}&key=${apiPhoto}&maxwidth=400&maxheight=400`;
-  axios.get(linkPhoto).then(showPhoto);
-}
+//function showPhotoReference(response) {
+//let photoRef = response.candidates[1].photo_reference;
+//let apiPhoto = "AIzaSyBGe9y0OtkIttH_QUMmWvA8i7NYEJeIGEw";
+//let linkPhoto = `https://maps.googleapis.com/maps/api/place/photo?photoreference=${photoRef}&key=${apiPhoto}&maxwidth=400&maxheight=400`;
+// axios.get(linkPhoto).then(showPhoto);
+//}
 
-function changePhotoCity(city) {
-  let apiPhoto = "AIzaSyBGe9y0OtkIttH_QUMmWvA8i7NYEJeIGEw";
-  let linkPhotoReference = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${city}, IL&key=${apiPhoto}&inputtype=textquery&fields=name,photos`;
-  axios.get(linkPhotoReference).then(showPhotoReference);
-}
+//function changePhotoCity(city) {
+//let apiPhoto = "AIzaSyBGe9y0OtkIttH_QUMmWvA8i7NYEJeIGEw";
+//let linkPhotoReference = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${city}, IL&key=${apiPhoto}&inputtype=textquery&fields=name,photos`;
+//axios.get(linkPhotoReference).then(showPhotoReference);
+//}
 
-changePhotoCity("Cam Ranh");
+//changePhotoCity("Cam Ranh");
